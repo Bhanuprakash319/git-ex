@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Contact Us - Ts </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Bhanu prakash">
+        <meta name="description" content="Contact information of Taco shop">
+        <link rel="icon" href="icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="HMP.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1> Contact Us </h1>
+            <nav>
+                <ul>
+                    <li> <a href="/"> Home </a> </li>
+                    <li> <a href="/#About taco shop"> About <abbr title="Taco Shop"> TS </abbr> </a> </li>
+                    <li> <a href="/#Our menu"> Our Menu </a> </li>
+                    <li> <a href="hours.html"> Store Hours </a></li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/contact.png" alt="Tacos" title="Crispy and Crunchy"
+                width="350" height="250" loading="lazy">
+                <figcaption> Taco Shop Tacos </figcaption>
+            </figure>
+        </header>
+        <main>
+            <h2> Our Contact Form </h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset> 
+                    <legend> Send Us A Message </legend>
+                    <p>
+                        <label for="Name"> Name: </label>
+                        <input type="text" name="Name" id="Name" placeholder="your name"
+                        required >
+                    </p>
+                    <p>
+                        <label for="Email"> Email: </label>
+                        <input type="text" name="Email" id="Email" required
+                        placeholder="your email">
+                    </p>
+                    <p>
+                        <label for="message"> Your Message: </label>
+                        <br>
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Type your message here">
+                        </textarea>
+                    </p>
+                </fieldset>
+                <button type="submit"> Send </button>
+                <button type="reset"> Reset</button>
+            </form>
+            <h2> Our location </h2>
+            <address> 
+                555 Taco Temptation Lane, Suite T <br>
+                Kansas City, MO 111-222-3333
+                <br><br>
+                Phone: <a href="tel: +1112223333"> 111-222-3333</a>
+            </address>
+            <p> <a href="#"> Back to top </a> </p>
+        </main>
+        <hr>
+        <footer>
+            <p> Copyright &copy;The Taco Shop  </p>
+        </footer>
+    </body>
+</html>
